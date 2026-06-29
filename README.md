@@ -2,6 +2,8 @@
 
 This project demonstrates real-time acquisition of ambient light intensity using an Arduino Uno and an LDR. Sensor readings are transmitted to Python through serial communication, visualized live using Matplotlib, and stored in a CSV file for further analysis.
 
+This project was built as part of my journey into biomedical instrumentation. Before working with physiological sensors like PPG, I wanted to understand the complete sensing pipeline, starting from analog acquisition to visualization and logging.
+
 ---
 
 ## Objectives
