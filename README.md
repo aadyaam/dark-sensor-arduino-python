@@ -20,7 +20,7 @@ The goals of this project were to:
 
 ### Hardware Setup
 
-![Hardware Setup](set-up.jpeg)
+![Hardware Setup](hardware_setup.jpeg)
 
 ### Live Sensor Graph
 
