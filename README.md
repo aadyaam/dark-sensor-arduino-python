@@ -151,8 +151,7 @@ Most importantly, this project showed me how embedded electronics and data analy
 ## Reflection
 
 This was my first complete Arduino project built outside of simulations.
-
-Starting from simple LED circuits, I gradually learned how to interface sensors, debug physical hardware, communicate with Python, and visualize live data. Beyond the technical skills, the project strengthened my interest in embedded systems and their potential applications in healthcare technology, motivating me to continue building more biomedical sensing projects.
+Starting from simple LED circuits, I gradually learned how to interface sensors, debug physical hardware, communicate with Python, and visualize live data. It gave me a much better appreciation of how embedded systems and software come together in real-world sensing applications.
 
 ---
 
