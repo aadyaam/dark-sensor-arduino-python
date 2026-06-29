@@ -8,7 +8,7 @@ A simple data acquisition project that uses an Arduino Uno and a Light-Dependent
 
 ### Hardware Setup
 
-![Hardware Setup]
+![Hardware Setup](set-up.jpeg)
 
 ### Live Sensor Graph
 
