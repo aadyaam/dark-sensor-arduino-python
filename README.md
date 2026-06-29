@@ -1,6 +1,6 @@
 # Dark Sensor using Arduino and Python
 
-A simple data acquisition project that uses an Arduino Uno and a Light-Dependent Resistor (LDR) to measure ambient light intensity. The sensor readings are transmitted to Python via serial communication, visualized in real time with Matplotlib, and logged to a CSV file for further analysis. 
+This project demonstrates real-time acquisition of ambient light intensity using an Arduino Uno and an LDR. Sensor readings are transmitted to Python through serial communication, visualized live using Matplotlib, and stored in a CSV file for further analysis.
 
 ---
 
@@ -27,7 +27,7 @@ The goals of this project were to:
 ![Live Graph](dark_sensor.png)
 
 ### Demo
-![Demo video](demo.mp4)
+A demonstration of the project is available in `demo.mp4`.
 
 ---
 
@@ -45,7 +45,7 @@ The goals of this project were to:
 
 ### Hardware
 - Arduino Uno
-- LDR (Light Dependent Resistor)
+- LDR (Light-Dependent Resistor)
 - LED
 - 220 Ω resistor
 - 10 kΩ resistor
@@ -145,6 +145,14 @@ Most importantly, this project showed me how embedded electronics and data analy
 - Save data with timestamps
 - Build a real-time dashboard
 - Extend the project to physiological sensors such as PPG
+
+---
+
+## Reflection
+
+This was my first complete Arduino project built outside of simulations.
+
+Starting from simple LED circuits, I gradually learned how to interface sensors, debug physical hardware, communicate with Python, and visualize live data. Beyond the technical skills, the project strengthened my interest in embedded systems and their potential applications in healthcare technology, motivating me to continue building more biomedical sensing projects.
 
 ---
 
