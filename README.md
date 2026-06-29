@@ -4,6 +4,18 @@ A simple data acquisition project that uses an Arduino Uno and a Light-Dependent
 
 ---
 
+## Objectives
+
+The goals of this project were to:
+
+- Interface an LDR with an Arduino Uno
+- Acquire real-time sensor data
+- Transfer data to Python through serial communication
+- Visualize sensor readings live
+- Store collected data for future analysis
+
+---
+
 ## Project Overview
 
 ### Hardware Setup
@@ -13,6 +25,9 @@ A simple data acquisition project that uses an Arduino Uno and a Light-Dependent
 ### Live Sensor Graph
 
 ![Live Graph](dark_sensor.png)
+
+### Demo
+![Demo video](demo.mp4)
 
 ---
 
@@ -96,30 +111,31 @@ python dark_sensor.py
 
 ---
 
-## Debugging Experience
+## Challenges and Debugging
 
-- Incorrect resistor values led to LED failures, highlighting the importance of current limiting in circuits
-- Initial wiring mistakes caused unstable readings in the LDR circuit
-- Serial output required debugging due to inconsistent data formatting
-- Learned to verify connections step-by-step before powering the circuit
-  
----
+Like most hardware projects, this one required several rounds of troubleshooting before everything worked reliably.
 
-## Challenges Faced
-Managing noise in analog sensor readings from LDR
-Selecting an appropriate threshold for light/dark detection
-Ensuring stable serial communication between Arduino and Python
-Handling inconsistent or delayed serial input during initial setup
-Preventing graph flickering in real-time visualization
+- Incorrect resistor placement initially prevented the LED from functioning.
+- Loose breadboard connections caused unstable LDR readings.
+- Serial communication between Arduino and Python required debugging due to inconsistent formatting.
+- Real-time plotting initially flickered because of the way new data points were handled.
+- Selecting an appropriate threshold for distinguishing light and dark conditions required experimentation.
+
+Each issue improved my understanding of both electronics debugging and software integration.
 
 ---
 
 ## What I Learned
-Working of voltage divider circuits in analog sensing
-Interfacing Arduino with Python using serial communication
-Real-time data visualization techniques
-Basics of data logging using CSV files
-Debugging hardware-software integration issues
+
+This project was my first experience combining electronics with Python for data acquisition.
+Through building it, I learned:
+- How voltage divider circuits enable analog sensing
+- Interfacing Arduino with Python through serial communication
+- Real-time data visualization using Matplotlib
+- Logging experimental data into CSV files
+- Systematically debugging hardware and software together
+  
+Most importantly, this project showed me how embedded electronics and data analysis can work together, something I hope to explore further in biomedical engineering and healthcare technology.
 
 ---
 
